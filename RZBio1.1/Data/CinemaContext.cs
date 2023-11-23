@@ -1,7 +1,6 @@
 ﻿using RZBio1._1.Models;
 using Microsoft.EntityFrameworkCore;
 namespace RZBio1._1.Data
-
 {
     public class CinemaContext: DbContext
     {
