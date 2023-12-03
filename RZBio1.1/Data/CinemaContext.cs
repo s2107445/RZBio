@@ -5,7 +5,9 @@ namespace RZBio1._1.Data
     public class CinemaContext: DbContext
     {
         public CinemaContext(DbContextOptions<CinemaContext> options) : base(options) { }
-        
+
+
+       
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<Lounge> Lounges { get; set; }
         public DbSet<Movie> Movies { get; set; }
